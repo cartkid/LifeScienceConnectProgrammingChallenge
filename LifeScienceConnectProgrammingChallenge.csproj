@@ -9,5 +9,19 @@
   <ItemGroup>
     <Content Include="Program.cs" />
     <Content Include="readme.md" />
+    <Content Include="models\Answer.cs" />
+    <Content Include="models\AnswerResponse.cs" />
+    <Content Include="models\ApiResponse.cs" />
+    <Content Include="models\ApiSubscriber.cs" />
+    <Content Include="models\Magazine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Content Include="Models\ApiResponseMagazines.cs" />
+    <Content Include="Models\ApiResponseAnswerResponse.cs" />
+    <Content Include="Models\ApiResponseCategories.cs" />
+    <Content Include="Models\ApiResponseApiSubscribers.cs" />
+    <Content Include="Models\Subscriber.cs" />
+    <Content Include="Models\ApiResponseSubscribers.cs" />
   </ItemGroup>
 </Project>
